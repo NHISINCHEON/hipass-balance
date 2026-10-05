@@ -2,6 +2,15 @@
   "name": "hipass-shared-api",
   "main": "server/index.ts",
   "compatibility_date": "2026-10-01",
-  "vars": {"ALLOWED_ORIGINS": "https://YOUR_GITHUB_USERNAME.github.io"},
-  "d1_databases": [{"binding":"DB","database_name":"hipass-shared","database_id":"REPLACE_WITH_YOUR_DATABASE_ID","migrations_dir":"migrations"}]
+  "vars": {
+    "ALLOWED_ORIGINS": "https://nhisincheon.github.io"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hipass-shared",
+      "database_id": "12e1d8f2-c94c-4262-9e73-990bb976d7da",
+      "migrations_dir": "migrations"
+    }
+  ]
 }
